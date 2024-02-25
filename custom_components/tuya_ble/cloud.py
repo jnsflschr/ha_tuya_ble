@@ -8,13 +8,12 @@ import json
 from typing import Any, Iterable
 
 from homeassistant.const import (
-    CONF_ADDRESS, 
-    CONF_DEVICE_ID,
+    CONF_ADDRESS,
     CONF_COUNTRY_CODE,
+    CONF_DEVICE_ID,
     CONF_PASSWORD,
     CONF_USERNAME,
 )
-
 from homeassistant.core import HomeAssistant
 from homeassistant.components.tuya.const import (
     CONF_ACCESS_ID,
